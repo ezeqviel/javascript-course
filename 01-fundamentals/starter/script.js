@@ -174,3 +174,16 @@ switch(day){
         console.log('avg mitad de semana enjoyer')
         break;
 }*/
+
+// the conditional operator
+/*
+ let age = 17
+ // age >= 18 ? console.log('🍷') : console.log('no tomar 🍺')
+
+ const drink = age >= 18 ? 'vino' : 'agua'
+ console.log(drink)
+
+ age++;
+ const drink2 = age >= 18 ? 'vino' : 'agua'
+ console.log(drink2)
+ */
