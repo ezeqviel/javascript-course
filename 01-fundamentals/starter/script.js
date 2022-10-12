@@ -208,11 +208,13 @@ GOOD LUCK 😀
 
 1. calcular tip
 2. printear string de la cuenta, propina y la suma de estas dos
-*/
+
 
 let check = 275
 let tip = (check>=50 && check<=300) ? check*0.15 : check*0.2
 console.log(`The bill was ${check}, the tip was ${tip}, and the total value ${check+tip}`)
+*/
+
 
 
 
