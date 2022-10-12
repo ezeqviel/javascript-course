@@ -144,7 +144,7 @@ GOOD LUCK 😀
 2. comparar y decidir ganador
 3. minimo puntaje de 100, si sacan 99 y 98 hay empate.
 4. minimo puntaje para empate tambien, 100 puntos.
-*/
+
 
 let avgKoalas = (88+91+110)/3
 let avgDolphins = (96+108+89)/3
@@ -159,3 +159,18 @@ if(avgKoalas < 100 && avgDolphins < 100){
     if(avgKoalas < avgDolphins) console.log('dolphins wins')
     if(avgDolphins === avgKoalas) console.log('empate')
 }
+*/
+
+// the switch statement
+/*
+const day = 'lunes'
+switch(day){
+    case 'lunes': // day === 'monday'
+        console.log('lunes otra vez sobre la ciudad')
+        console.log('la gente que ves vive en soledad')
+        break;
+    case 'martes':
+    case "miercoles":
+        console.log('avg mitad de semana enjoyer')
+        break;
+}*/
