@@ -26,7 +26,7 @@ TEST DATA 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1
 TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
 
 GOOD LUCK 😀
-*/
+
 
 const height_mark = 1.69
 const height_john = 1.95
@@ -41,6 +41,7 @@ console.log(bmi_john, bmi_mark)
 let markHigherBMI = bmi_mark > bmi_john
 
 console.log(markHigherBMI)
+*/
 
 // Coding Challenge #2
 
@@ -54,11 +55,34 @@ The message can be either "Mark's BMI is higher than John's!" or "John's BMI is 
 HINT: Use an if/else statement 😉
 
 GOOD LUCK 😀
-*/
+
 
 if(markHigherBMI){
     console.log(`Mark's BMI (${bmi_mark}) is higher than John's! (${bmi_john})`)
 } else {
     console.log(`John's BMI (${bmi_john}) is higher than Mark's! (${bmi_mark}))`)
 }
+*/
 
+// type conversion and coercion
+/*
+// type conversion
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear)+18)
+
+console.log(Number('Jonas'))
+console.log(typeof 'Jonas')
+
+console.log(String(23),23)
+
+// type coercion
+console.log('I am ' + 23 + ' years old')
+console.log('23' - '10' - 13) // 0
+console.log('23' + '10' + 13) // 231013
+console.log('23' - '10' + 13) // 23-10+13 
+console.log('23' + '10' - 13) // 2310-13
+console.log('23' * '10' / 10) // 23
+console.log('23' / '10' * 10) // 23
+console.log('10' - '4' - '3' - 2 + '5') // 15
+*/
