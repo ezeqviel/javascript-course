@@ -86,3 +86,19 @@ console.log('23' * '10' / 10) // 23
 console.log('23' / '10' * 10) // 23
 console.log('10' - '4' - '3' - 2 + '5') // 15
 */
+
+// truthy and falsy values
+/*
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('ezequiel'));
+console.log(Boolean({}));
+console.log(Boolean(''));
+
+const money = 0
+if(money){
+    console.log("ahorrá")
+} else {
+    console.log("agarralapalooza")
+}
+*/
