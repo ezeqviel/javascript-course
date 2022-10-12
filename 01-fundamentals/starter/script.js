@@ -102,3 +102,18 @@ if(money){
     console.log("agarralapalooza")
 }
 */
+
+// equality operators === or ==
+/*
+const age = '18';
+if (age === 18) console.log('18 (strict)') // strict equality operator. no type coercion.
+if (age == 18) console.log('18 (loose)') // loosely equality operator. type coercion.
+
+let fav = prompt('numero fav?')
+console.log(fav)
+console.log(typeof(fav))
+if(fav === 13) console.log('nice')
+
+if (fav !== 13) console.log('13 (strict)') // strict equality operator. no type coercion.
+if (fav != 13) console.log('13 (loose)') // loosely equality operator. type coercion.
+*/
