@@ -69,3 +69,16 @@ function checkWinner (avgDolhins, avgKoalas){
 }
 
 checkWinner(scoreDolphins,scoreKoalas); */
+
+// arrays
+
+const friends = ['enzo', 'juanfer', 'pity', 'ivael', 'tercero']
+console.log(friends[1])
+
+const years = new Array(1998, 2018)
+console.log(years[1])
+console.log(friends[friends.length - 3])
+
+friends[4] = `leo` 
+// puedo cambiarlo aunque sea const porque los arrays no son primitivos
+// lo que no puedo hacer es friends = [`marcelo`, `milton`]
