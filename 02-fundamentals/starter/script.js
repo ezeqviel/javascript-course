@@ -158,6 +158,28 @@ console.log(total) */
 const eze = {
     name: 'ezequiel',
     age: 23,
-    job: 'error 404'
+    job: 'error 404',
+    ultimaComida: 'pollo',
+    amigos: ['john', 'paul', 'ringo', 'george']
 }
 
+// dot vs bracket notation
+
+console.log(eze)
+console.log(eze.name)
+console.log(eze['job'])
+
+const nameKey = 'Comida';
+console.log(eze['ultima' + nameKey])
+
+//const question = prompt('que queres saber loko? (name, age, job, ultimaComida)')
+//console.log(question)
+//console.log(eze[question]) // no hacen falta comillas porque prompt lo devuelve como string
+
+eze.ubicacion = 'argentina'
+eze['provincia'] = 'buenos aires'
+console.log(eze)
+
+// challenge
+console.log(`${eze.name} tiene ${eze.amigos.length} amigos, 
+y su mejor amigo es ${eze.amigos[1]}`)
