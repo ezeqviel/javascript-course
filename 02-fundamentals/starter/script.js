@@ -71,7 +71,7 @@ function checkWinner (avgDolhins, avgKoalas){
 checkWinner(scoreDolphins,scoreKoalas); */
 
 // arrays
-
+/*
 const friends = ['enzo', 'juanfer', 'pity', 'ivael', 'tercero']
 console.log(friends[1])
 
@@ -82,3 +82,41 @@ console.log(friends[friends.length - 3])
 friends[4] = `leo` 
 // puedo cambiarlo aunque sea const porque los arrays no son primitivos
 // lo que no puedo hacer es friends = [`marcelo`, `milton`]
+*/
+
+// basic array operations
+
+// Basic Array Operations (Methods)
+const friends = ['enzo', 'juanfer', 'pity', 'ivael', 'tercero']
+
+// agregar elementos
+const newLength = friends.push('leo');  // agrega al final
+console.log(friends);
+console.log(newLength);
+
+friends.unshift('julian'); // agrega al principio
+console.log(friends);
+
+// quitar elementos
+friends.pop(); // ultimo
+const popped = friends.pop(); // guarda el elemento popeado
+console.log(popped);
+console.log(friends);
+
+console.log(`shift`)
+friends.shift(); // primero
+console.log(friends);
+
+console.log(friends.indexOf('pity'));
+console.log(friends.indexOf('enzo'));
+
+friends.push(23);
+console.log(friends.includes('ivael'));
+console.log(friends.includes('tercero'));
+console.log(friends.includes(912));
+friends.push('912')
+
+
+if (friends.includes('912')) {
+  console.log('3 a 1');
+}
