@@ -154,7 +154,7 @@ const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]]
 console.log(total) */
 
 // intro to objects
-
+/*
 const eze = {
     name: 'ezequiel',
     age: 23,
@@ -183,3 +183,33 @@ console.log(eze)
 // challenge
 console.log(`${eze.name} tiene ${eze.amigos.length} amigos, 
 y su mejor amigo es ${eze.amigos[1]}`)
+*/
+
+// object methods
+
+const eze = {
+    name: 'ezequiel',
+    age: 23,
+    job: 'estudiante',
+    ultimaComida: 'pollo',
+    amigos: ['john', 'paul', 'ringo', 'george'],
+    birthYear: 1998,
+    tieneRegistro: true,
+
+    calcAge: function(){ 
+        this.age = 2022 - this.birthYear
+        return this.age;
+    },
+
+    getSummary: function(){
+        console.log(`${this.name} tiene ${this.calcAge()} años y es ${this.
+            job}. ${this.tieneRegistro ? '' : 'no '} tiene registro.`)
+    }
+}
+
+console.log(eze.age)
+console.log(eze['calcAge'](eze.birthYear))
+
+// challenge
+// "eze tiene x años y es. tiene registro."
+console.log(eze.getSummary())
