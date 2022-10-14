@@ -284,9 +284,10 @@ for(let i = 0 ; i < array.length ; i++){
     //types[i] = typeof(array[i]);
     types.push(typeof(array[i]));
 }
-
-console.log(types)
 */
+/*
+console.log(types)
+
 const eze = [
     1998,
     'octubre',
@@ -305,6 +306,14 @@ console.log('--- break con numeros ---')
 for(let i = 0 ; i < eze.length ; i++){
     if(typeof eze[i] !== 'number') break
     console.log(eze[i], typeof eze[i]);
+} */
+
+// the while loop
+
+let dado = Math.trunc(Math.random() * 6) + 1;
+
+while (dado !== 6) {
+  console.log(`dado: ${dado}`);
+  dado = Math.trunc(Math.random() * 6) + 1;
+  if (dado === 6) console.log('ultimo');
 }
-
-
