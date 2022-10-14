@@ -236,7 +236,7 @@ GOOD LUCK 😀
 2. calcBMI metodo. guardar en una propiedad, retornarla desde el metodo
 3. console.log
 */
-
+/*
 const mark = {
     name: 'mark miller',
     peso: 78,
@@ -264,4 +264,16 @@ if(mark.bmi > john.bmi){
     console.log (`${mark.name} tiene mayor bmi (${mark.bmi}) que john (${john.bmi})`)
 } else {
     console.log (`${john.name} tiene mayor bmi (${john.bmi}) que mark (${mark.bmi})`)
+} */
+
+// the for loop
+
+for (let rep = 1; rep <= 5; rep++) {
+    console.log(`Lifting weights repetition ${rep} 🏋️‍♀️`);
+  }
+
+// looping arrays, breaking and continuing
+
+for(let i = 0;;i++){
+    console.log()
 }
