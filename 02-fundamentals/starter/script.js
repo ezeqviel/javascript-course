@@ -267,13 +267,44 @@ if(mark.bmi > john.bmi){
 } */
 
 // the for loop
-
+/*
 for (let rep = 1; rep <= 5; rep++) {
     console.log(`Lifting weights repetition ${rep} 🏋️‍♀️`);
   }
-
+*/
 // looping arrays, breaking and continuing
+/*
+const array = [1,2,3,4,5,6,7,8,9]
+const types = [];
+for(let i = 0 ; i < array.length ; i++){
+    // leer del array
+    console.log(array[i]);
 
-for(let i = 0;;i++){
-    console.log()
+    //crear array
+    //types[i] = typeof(array[i]);
+    types.push(typeof(array[i]));
 }
+
+console.log(types)
+*/
+const eze = [
+    1998,
+    'octubre',
+    'River',
+    912
+]
+// continue and break
+
+console.log('--- solo strings ---')
+for(let i = 0 ; i < eze.length ; i++){
+    if(typeof eze[i] !== 'string') continue;
+    console.log(eze[i], typeof eze[i]);
+}
+
+console.log('--- break con numeros ---')
+for(let i = 0 ; i < eze.length ; i++){
+    if(typeof eze[i] !== 'number') break
+    console.log(eze[i], typeof eze[i]);
+}
+
+
