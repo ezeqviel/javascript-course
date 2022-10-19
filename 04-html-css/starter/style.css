@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(117, 62, 62);
+    font-family: Ariel;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.first{
+    color:blue
+}
