@@ -1,13 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
 body {
     background-color: rgb(117, 62, 62);
     font-family: Ariel;
     font-size: 20px;
+    padding: 50px;
 }
 
 h1 {
     font-size: 35px;
+    border: 5px;
+    margin-bottom: 50px;
+}
+
+p {
+    margin-top: 50px;
+}
+
+input, button {
+    padding: 10px;
+}
+
+a {
+    background-color: yellowgreen;
 }
 
 .first{
-    color:blue
+    color:blue;
+    background-color:aliceblue;
+}
+
+.jeding1{
+    background-color: aliceblue;
+    border: 5px;
+}
+
+#river { 
+    background-color: black;
+}
+
+#ezequiel{
+    background-color: aqua;
+    border: 5px;
 }
